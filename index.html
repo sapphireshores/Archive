@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About_sapphireshores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Open Sans', sans-serif; 
+            background-color: #0b0b2e; 
+            color: #ffffff;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8) !important;
+            backdrop-filter: blur(5px);
+        }
+        .navbar-brand { font-family: 'Montserrat', sans-serif; letter-spacing: 1px; }
+        .hero-section { 
+            background: linear-gradient(rgba(18, 10, 191, 0.6), rgba(11, 11, 46, 1)), 
+                        url('https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; 
+            padding: 120px 0 60px 0;
+            color: #ffffff;
+            border-bottom: 3px solid #FF1D8D; 
+        }
+        .hero-section h1 { 
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 4rem;
+        }
+        .hero-section p.lead { 
+            font-family: 'Playfair Display', serif; 
+            color: #FF1D8D !important; 
+            font-weight: bold;
+        }
+        .about-text {
+            max-width: 800px;
+            margin: 40px auto 0 auto;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            color: #e0e0e0;
+        }
+        .proposal-section {
+            background-color: #0b0b2e;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 30px 30px; 
+            padding: 80px 0;
+        }
+        h2 { 
+            font-family: 'Montserrat', sans-serif; 
+            text-transform: uppercase; 
+            letter-spacing: 3px;
+        }
+        .card { 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            border-radius: 20px; 
+            background: rgba(255, 255, 255, 0.05); 
+            backdrop-filter: blur(15px); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            color: #ffffff;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 255, 255, 0.2);
+            background: rgba(0, 255, 255, 0.1); 
+        }
+        .card h5 { color: #00FFFF; font-family: 'Montserrat', sans-serif; } 
+        .card p { color: #e0e0e0; }
+        .skill-box {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid #FF1D8D;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .skill-box:hover { background: #FF1D8D; color: white; }
+        footer { background: #000 !important; color: #555; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">PORTFOLIO~</a>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Hi! I'm Varshini.</h1>
+            <p class="lead">Quantitative Finance Enthusiast || Workflow Automation Developer || High-Performance Algorithm Developer</p>
+            
+            <p class="about-text">
+                I'm a CSE student focused on high-performance algorithms and low-level optimization logic. Fascinated by core systems programming and quantitative logic, I enjoy making tools that prioritize deterministic execution, memory overhead reduction, and processing speed. 
+        </div>
+    </header>
+
+    <section class="proposal-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Technical Projects</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-5">
+                    <a href="https://github.com/sapphireshores/Low_Level_Command_Parser" target="_blank" class="text-decoration-none text-white">
+                    <div class="card p-4 h-100 shadow d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold">Low Level Command Parser</h5>
+                            <p class="small mt-2">A modular command-line terminal written in C that supports file & directory operations, text processing, search & system utilities, math calculations and custom command registration</p>
+                        </div>
+                        <div class="mt-3 d-flex justify-content-between align-items-center">
+                            <span class="badge bg-info text-dark">Command Shell</span>
+                            <span class="badge bg-success">Completed</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <a href="https://github.com/sapphireshores/Gaia-Create" target="_blank" class="text-decoration-none text-white">
+                    <div class="card p-4 h-100 shadow d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold">Gaia-Create</h5>
+                            <p class="small mt-2">A lightweight incremental build tool and offline code integrity guard written in C++17.</p>
+                        </div>
+                        <div class="mt-3 d-flex justify-content-between align-items-center">
+                            <span class="badge bg-info text-dark">Automation</span>
+                            <span class="badge bg-success">Active Deployment</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <a href="https://github.com/sapphireshores/Archive" target="_blank" class="text-decoration-none text-white">
+                    <div class="card p-4 h-100 shadow d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold">Archive</h5>
+                            <p class="small mt-2">A centralized deployment platform that acts as an archive to showcase my tech stack and development projects.</p>
+                        </div>
+                        <div class="mt-3 d-flex justify-content-between align-items-center">
+                            <span class="badge bg-info text-dark">Deployment</span>
+                            <span class="badge bg-success">Active Deployment</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="container my-5 py-5 text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="mb-5">Core Technical Stack</h2>
+                <div class="d-flex flex-wrap justify-content-center gap-4">
+                    <div class="skill-box">C++(OOP & STL)</div>
+                    <div class="skill-box">Data Structures & Algorithms</div>
+                    <div class="skill-box">Python</div>
+                    <div class="skill-box">SQL</div>
+                    <div class="skill-box">Shell Architecture (C)</div>
+                    <div class="skill-box">Git Version Control</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4">
+        <p class="small">Updated -July '26</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
